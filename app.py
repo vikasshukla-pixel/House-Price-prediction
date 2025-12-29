@@ -16,7 +16,7 @@ final_X = X
 scaler = StandardScaler()
 scaled_X = scaler.fit_transform(final_X)
 
-st.sidebar.title("Select houe features")
+st.sidebar.title("Select house features:")
 st.sidebar.image('https://cdn.dribbble.com/userupload/20000742/file/original-aaf23458355a156d0cf85b8217a5065a.gif')
 all_value = []
 for i in final_X:
@@ -26,6 +26,7 @@ for i in final_X:
 
 st.write(all_value)
   
+
 
 
 
